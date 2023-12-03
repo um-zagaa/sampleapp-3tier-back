@@ -78,8 +78,8 @@ Nest is [MIT licensed](LICENSE).
 Connect Bastion Host from your computer
 `ssh -i ~/.ssh/your-key-pair.pem ec2-user@your-instance-bastion-host-ip`
 
-Connect Web server with your Bastion Host
-`ssh -i ~/.ssh/your-key-pair.pem ec2-user@your-instance-web-server-ip`
+Connect Application server with your Bastion Host
+`ssh -i ~/.ssh/your-key-pair.pem ec2-user@your-instance-application-server-ip`
 
 ### Configure the EC2 instance
 `sudo yum update`

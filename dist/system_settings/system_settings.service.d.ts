@@ -4,5 +4,4 @@ export declare class SystemSettingsService {
     private systemSettingRepository;
     constructor(systemSettingRepository: Repository<SystemSettingEntitiy>);
     getSystemSettings(): Promise<SystemSettingEntitiy[]>;
-    getSystemSetting(id: number): Promise<SystemSettingEntitiy[]>;
 }

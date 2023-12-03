@@ -24,9 +24,6 @@ let SystemSettingsService = class SystemSettingsService {
     getSystemSettings() {
         return this.systemSettingRepository.find();
     }
-    getSystemSetting(id) {
-        return this.systemSettingRepository.find();
-    }
 };
 exports.SystemSettingsService = SystemSettingsService;
 exports.SystemSettingsService = SystemSettingsService = __decorate([

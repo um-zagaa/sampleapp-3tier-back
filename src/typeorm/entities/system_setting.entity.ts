@@ -1,4 +1,3 @@
-/* user.entity.ts */
 /* eslint-disable prettier/prettier */
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
@@ -13,11 +12,4 @@ export class SystemSettingEntitiy {
 
     @Column()
     value: string;
-
-    // @Column()
-    // createdAt: Date;
-
-    // @Column()
-    // updatedAt: Date;
-
 }

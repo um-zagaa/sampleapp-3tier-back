@@ -15,9 +15,4 @@ export class SystemSettingsService {
     getSystemSettings() {
         return this.systemSettingRepository.find();
     }
- 
-    getSystemSetting(id: number) {
-        return this.systemSettingRepository.find();
-        // return this.systemSettingRepository.findOne({ id });
-    }
 }

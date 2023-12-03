@@ -11,9 +11,4 @@ export class SystemSettingsController {
     getSystemSettings() {
         return this.systemSettingService.getSystemSettings();
     }
-
-    @Get(':id')
-    getSystemSetting(@Param('id', ParseIntPipe) id: number) {
-        return this.systemSettingService.getSystemSetting(id);
-    }
 }
